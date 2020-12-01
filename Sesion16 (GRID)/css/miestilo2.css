@@ -1,0 +1,37 @@
+.grid{
+    color: gainsboro;
+    margin: 0px auto;
+    max-width: 1000px;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 2fr 3fr 1fr;
+    grid-template-areas: "head head head"
+    "nav section aside"
+    "footer footer footer";
+}
+
+.header{
+    grid-area: head;
+    background-color: blueviolet;
+
+}
+.nav{
+    grid-area: nav;
+    background-color: #6499ed;
+}
+.section{
+    grid-area: section;
+    background-color: indigo;
+}
+.aside{
+    grid-area: aside;
+    background-color: darkmagenta;
+
+}
+
+.footer{
+    grid-area: footer;
+    background-color: darkorchid;
+    
+}

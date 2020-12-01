@@ -1,0 +1,14 @@
+p{
+    background-color: green;
+    text-align: right;
+}
+
+img{
+    float: right;
+    width: 250px;
+}
+
+.Firma{
+    background-color: yellow;
+    float: right;
+}

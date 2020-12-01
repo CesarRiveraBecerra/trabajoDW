@@ -1,0 +1,247 @@
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 18% auto 2.5fr 21% 1fr;
+    grid-template-areas: "header header"
+    "nav nav" " article aside"
+    "section section" " footer footer";
+}
+
+.section{
+    grid-area: section;
+    background-color: aquamarine;
+    display:flex;     justify-content: space-between;     padding-right: 400px;
+}
+
+#proyectos{
+    display:flex;     justify-content: space-between;
+}
+
+.section div img{
+    width: 125px;
+    padding: 5px;
+    margin-left: 27%;
+}
+
+.header{
+    grid-area: header;
+    background-color: aquamarine;
+}
+
+.header h2{
+    margin-left: 12%;   
+}
+
+.nombre{
+    font-size: 50px;
+    padding-top: 35px;
+    margin: 0px;
+}
+
+.web{
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.nav{
+    grid-area: nav;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+
+}
+
+
+.article{
+    grid-area: article;
+    background-color: white;
+    color: black;
+    margin-left: 3.5%;
+
+}
+
+.article p{
+    margin-right: 16%;
+}
+
+.aside{
+    grid-area: aside;
+    background-color: aqua;
+}
+
+
+.footer{
+
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.header img{
+    width: 103px;
+    float: left;
+    margin-left: 2.8%;
+    margin-top: 0.5%;
+}
+
+
+.article img{
+    width: 150px;
+    float: right;
+}
+
+.header h1{
+    float: right;
+    size: 20px;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 18px;
+    border: 1px solid white;
+    width: 17.1%;
+    text-align: center;
+}
+.nav ul li a{
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+.section ul{
+    margin: 0%;
+}
+
+.colorcito{
+    background-color: turquoise;
+}
+
+.nav ul li:hover{
+    background-color: turquoise;
+    transition: 400ms;
+}
+
+.nav ul{
+    margin: 3.5px;
+}
+
+
+#iniciarsesion {
+    float: right;
+    margin: 10px;
+}
+
+.imagen_noti{
+    float: right;
+    width: 150px;
+    margin-right: 2%;
+}
+
+.aside nav{
+    background-color: cornflowerblue;
+    margin: 15px;
+    margin-right: 20%;
+}
+
+.aside nav ul li{
+    font-size: 130%;
+    margin: 0%;
+}
+
+.header button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.aside nav h2{
+    margin-left: 5%;
+}
+
+
+#curriculum{
+    padding: 1%;
+}
+
+.article .proyectos{
+    width: 20%;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.article .subproyectos .proyectos .imgproyectos{
+    display: block;
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.article .subproyectos .proyectos .button{
+    display: block;
+    margin: 135px;
+    margin-left: 70px;
+    width: 70%;
+    position: relative;
+    transform: translateX(-50%);
+    background-color: #7189FF;
+    border: 1px solid #314987;
+    border-radius: 8px;
+    color: #EBEEFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.article .login{
+    padding: 90px;
+    margin: 10px auto;
+    width: 50%;
+    border: 1px solid black;
+    background-color: lightcyan;
+}
+.article .login #botoncito{
+    background-color: #7189FF;
+    color: #EBEEFF;
+    border: 1px solid  #314987;
+    border-radius: 8px;
+    padding: 5px 30px;
+    margin-top: 15px;
+    
+}
+
+
+#contactame2{
+    margin-right: 30%;
+    float: right;
+}
+
+#contactame{
+    width: 40%;
+    height: auto;
+    border: 1px solid black;
+    background-color: cyan;
+    padding: 2%;
+    display: inline-block;
+}
+
+
+#articulito{
+    padding: 2%;
+}
+
+
+#iniciodesesion{
+    width: 40%;
+    height: auto;
+    border: 1px solid black;
+    background-color: cyan;
+    padding: 2%;
+    display: inline-block;
+    margin: 4%;
+    margin-left: 30%;
+}
+
+.botoncitodesesion a{
+    text-decoration: none;
+}

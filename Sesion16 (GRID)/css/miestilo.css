@@ -1,0 +1,45 @@
+.grid{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 40px auto 40px;
+    grid-template-areas: "head head head"
+    "menu contenedor enlaces"
+    "foot foot foot";
+}
+
+.A{
+    grid-area: head;
+    background-color: blue;
+
+}
+.B{
+    grid-area: menu;
+    background-color: red;
+}
+.C{
+    grid-area: contenedor;
+    background-color: green;
+}
+.D{
+    grid-area: foot;
+    background-color: orangered;
+
+}
+
+.E{
+    grid-area: enlaces;
+    background-color: violet;
+
+}
+
+/*.grid{
+
+    display: grid;
+    grid-template-columns: 50px 300px;
+    grid-template-rows: 200px 75px;
+    
+}
+
+.bordes{
+    border: 1px solid;
+}*/
