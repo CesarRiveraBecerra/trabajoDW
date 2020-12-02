@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalice.css">
+    <link rel="stylesheet" href="css/misestilos.css">
+    <script src="js/tiendaonline.js"></script>    
+    <title>Document</title>
+</head>
+<body>
+    <main class="grid">
+
+        <header class="header">
+            <h1>Zuloaga Castellanos, Jeyson Daniel</h1>
+            <h2>Tienditas Online</h2>
+        </header>
+
+        <nav class="nav">
+            <ol>
+                <li> <a href="#">Inicio</a></li>
+                <li> <a href="#">Tienda</a></li>                
+            </ol>
+        </nav>
+
+        <section class="section">
+            <article>
+                <div class="div1">
+                    <table>
+                        <tr>
+                            <td>Producto</td>
+                            <td>Cantidad</td>
+                            <td>Precio</td>
+                            <td>Total</td>
+                            <td>Agregar al carrito</td>
+                        </tr>
+                        <tr>
+                            <td>hoja bond</td>
+                            <td><input type="number"></td>
+                            <td>10</td>
+                            <td>10</td>
+                            <td><button onclick="Agregar(this)" id="btn">Agregar</button></td>
+                        </tr>
+                        <tr>
+                            <td>colonia</td>
+                            <td><input id="cnt" type="number"></td>
+                            <td>11</td>
+                            <td>4</td>
+                            <td><button onclick="Agregar(this)">Agregar</button></td>
+                        </tr>
+                        <tr>
+                            <td>sadidas</td>
+                            <td><input type="number"></td>
+                            <td>18</td>
+                            <td>2</td>
+                            <td><button onclick="Agregar(this)">Agregar</button></td>
+                        </tr>
+                        <tr>
+                            <td>pumba</td>
+                            <td><input type="number"></td>
+                            <td>20</td>
+                            <td>5</td>
+                            <td><button onclick="Agregar(this)">Agregar</button></td>
+                        </tr>
+                        <tr>
+                            <td>catapulta</td>
+                            <td><input type="number"></td>
+                            <td>100</td>
+                            <td>10</td>
+                            <td><button onclick="Agregar(this)">Agregar</button></td>
+                        </tr>
+                    </table>                                      
+                </div>
+                <div class="div2"> 
+                    <h1>Productos Seleccionados</h1>
+                </div>               
+                <div class="div3">
+                    
+                    <table id="tbl">
+                        <tr>
+                            <td>Producto</td>
+                            <td>Cantidad</td>
+                            <td>Precio</td>
+                            <td>Total</td>
+                        </tr>                       
+                    </table>                                      
+                </div>
+            </article>
+        </section>
+
+        <footer class="footer">
+
+        </footer>
+    </main>
+</body>
+</html>

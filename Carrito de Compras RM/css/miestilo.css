@@ -1,0 +1,221 @@
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 18% 10% 65% 7%;
+    grid-template-areas: "header header"
+    "nav nav" "article aside"
+    "footer aside";
+}
+
+.aside ul .eliminarGuapo{
+    margin-left: 50px;
+    background-color: red;
+    border-style: none;
+    width: 25px;
+    border-radius: 5px;
+    height: 25px;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+}
+
+.aside #productos2{
+    list-style: none;
+}
+
+.aside #productos2 input{
+    width: 100px;
+    margin-left: 20px;
+}
+
+.aside #productos2 li{
+    margin-top: 20px;
+    margin-left: -10px;
+}
+
+#botonComprar{
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 10px;
+}
+
+#botonEliminar{
+    margin-left: 25px;
+}
+
+#botones{
+    padding-left: 10px;
+}
+
+span{
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+}
+
+.header{
+    grid-area: header;
+    background-color: #AC80F0;
+}
+
+.header h2{
+    margin-left: 12%;   
+}
+
+.nombre{
+    font-size: 50px;
+    padding-top: 35px;
+    margin: 0px;
+    padding-left: 50px;
+}
+
+.nombre2{
+    padding-left: 10px;
+    margin: 0px;
+    padding-left: 60px;
+}
+
+
+.nav{
+    grid-area: nav;
+    background-color: black;
+    color: black;
+    font-size: 20px;
+}
+
+
+.article{
+    grid-area: article;
+    background-color: white;
+    color: black;
+    margin-left: 4%;
+
+}
+
+.article p{
+    margin-right: 16%;
+}
+
+.aside{
+    grid-area: aside;
+    background-color:  #AC80F0;
+    
+}
+
+
+.footer{
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.header img{
+    width: 200px;
+    float: left;
+    margin-left: 2.7%;
+    margin-top: 1%;
+}
+
+
+.article img{
+    width: 150px;
+    float: right;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 18px;
+    border: 1px solid white;
+    width: 17.1%;
+    text-align: center;
+}
+
+.nav ul li a{ 
+    color: #AC80F0;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+.colorcito{
+    background-color: black;
+}
+
+.nav ul li:hover{
+    background-color: white;
+    transition: 400ms;
+    
+}
+
+.titu{
+    background-color: black;
+    margin: 10px;
+    color: white;
+}
+
+
+
+.nav ul{
+    margin: 5px;
+}
+
+.header button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#curriculum{
+    padding: 1%;
+}
+
+.article .chimpunes{
+    width: 20%;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.article .chimpunes .imgchimpunes{
+    display: block;
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+
+.article .chimpunes .button{
+    display: block;
+    margin: 135px;
+    margin-left: 70px;
+    width: 70%;
+    position: relative;
+    transform: translateX(-50%);
+    background-color: #7189FF;
+    border: 1px solid #314987;
+    border-radius: 8px;
+    color: #EBEEFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.article .login{
+    padding: 90px;
+    margin: 10px auto;
+    width: 50%;
+    border: 1px solid black;
+    background-color: lightcyan;
+}
+.article .login #botoncito{
+    background-color: #7189FF;
+    color: #EBEEFF;
+    border: 1px solid  #314987;
+    border-radius: 8px;
+    padding: 5px 30px;
+    margin-top: 15px;
+    
+}
+
+#articulito{
+    padding: 2%;
+}

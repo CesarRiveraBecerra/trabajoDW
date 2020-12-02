@@ -9,7 +9,7 @@ div{
     animation-name: animar;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-
+    animation-direction: alternate;
 }
 
 
@@ -72,8 +72,9 @@ div{
 
     100%{
 
-        top: 0;
-        left: 0;
+        top: 19rem;
+        left: 30rem;
+        color: red;
     }
 
 }

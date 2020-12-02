@@ -36,5 +36,6 @@ function actualizarDatos(){
         }
         
     }
+
     document.getElementById('contactos').innerHTML=registro;
 }

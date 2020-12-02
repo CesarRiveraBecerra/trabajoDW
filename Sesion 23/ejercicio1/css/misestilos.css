@@ -1,0 +1,46 @@
+/*PseudoElementos*/
+
+p::first-letter{
+    font-size: 2rem;
+}
+
+.seudoEle{
+    border: 2px solid black;
+    width: 10%;
+    text-align: center;
+}
+
+
+.seudoCla{
+    border: 2px solid black;
+    width: 10%;
+    text-align: center;
+}
+
+.seudoEle:before{
+    content: 'Hola';
+    background-color: red;
+}
+
+.seudoEle:after{
+    content: 'Perú';
+    background-color: red;
+}
+
+div:hover{
+    background-color: yellow;
+}
+
+a:hover{
+    color: red;
+}
+
+a:focus{
+    /*Solo para los sectores <a>*/
+    color: green;
+}
+
+a:active{
+    /*Solo para los sectores <a>*/
+    color: hotpink;
+}

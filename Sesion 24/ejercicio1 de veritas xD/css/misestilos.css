@@ -1,0 +1,43 @@
+p{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+/* Primera opción
+ @keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}*/
+
+/* Segunda opción*/
+@keyframes slidein{
+    0%{
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    30%{
+        background-color: purple;
+
+    }
+
+    60%{
+        background-color: yellow
+    }
+    90%{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+body{
+    overflow: hidden;
+}

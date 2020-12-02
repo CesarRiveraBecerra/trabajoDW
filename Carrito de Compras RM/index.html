@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalice.css">
+    <link rel="stylesheet" href="css/miestilo.css">
+    <title>Tienda EL PEPE</title>
+</head>
+
+<body>
+    <main class='grid'>
+        <header class='header'>
+            <img src="img/pumba.jpg" alt="img">
+            <h2 class="nombre">Tienda EL PEPE</h2>
+            <h2 class="nombre2">Ft. Ete Sech</h2>
+        </header>
+        
+
+        <nav class="nav">
+            <ul>
+                <li class="colorcito"><a href="index.html">Inicio</a></li>
+                <li><a href=" ">Acerca de nosotros</a></li>
+            </ul>
+        </nav>
+
+
+        <article class="article">
+            <h2 id="PRODUCTOS">Productos disponibles</h2>
+            
+            <div class="chimpunes"><h2>CHIMPUNES ARTILHEIRA IV</h2>
+                <p>Precio en soles</p>
+                <p>500</p>
+                <img class="imgchimpunes" src="img/Chimpunes 1.jpg" alt="chimpunes">
+                <button type="button" onclick="guardarDato(this)" class="button" id="botoncitoGuapo">Agregar</a>
+            </div>
+            
+            <div class="chimpunes"><h2>CHIMPUNES PREDATOR 20.3</h2>
+                <p>Precio en soles</p>
+                <p>400</p>
+                <img class="imgchimpunes" src="img/Chimpunes 2.jpg" alt="chimpunes">
+                <button type="button" onclick="guardarDato(this)" class="button">Agregar</a>
+            </div>
+
+            <div class="chimpunes"><h2>CHIMPUNES ARTILHEIRA III</h2>
+                <p>Precio en soles</p>
+                <p>300</p>
+                <img class="imgchimpunes" src="img/Chimpunes 3.jpg" alt="chimpunes">
+                <button type="button" onclick="guardarDato(this)" class="button">Agregar</a>
+            </div>
+
+            <div class="chimpunes"><h2>CHIMPUNES PREDATOR 20.5</h2>
+                <p>Precio en soles</p>
+                <p>200</p>
+                <img class="imgchimpunes" src="img/Chimpunes 4.jpg" alt="chimpunes">
+                <button type="button" onclick="guardarDato(this)" class="button">Agregar</a>
+            </div>
+            
+        </article>
+
+        <aside class="aside">
+            
+            <div>
+                <span class="titu">Producto</span> <span class="titu">Precio unitario</span> <span class="titu">Cantidad</span>
+                <span class="titu">Eliminar :(</span> <br><br> 
+            </div>
+
+            <ul id="productos2">
+
+
+            </ul>
+            
+            <div id="botones"><br><br>
+                
+                <button id="botonComprar" type="button" onclick="recuperarDato()">Comprar</button>
+                <button id="botonEliminar"  type="button" onclick="eliminarTodo()">Eliminar Todos</button>
+                
+            </div>
+            
+        </aside>
+        
+        <footer class="footer">
+            <p>Webmaster: Cesar Rivera Becerra</p>
+        </footer>
+    </main>
+    <script type="text/javascript" src="js/misapps.js"></script>
+</body>
+</html>
