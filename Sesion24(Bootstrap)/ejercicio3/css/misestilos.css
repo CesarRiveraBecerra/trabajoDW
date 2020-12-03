@@ -1,0 +1,12 @@
+.container{
+    background-color: powderblue;
+}
+
+
+.col{
+    border-color: black;
+    border: 2px;
+    border-style: solid;
+    margin-top: 5px;
+    background-color: whitesmoke;
+}

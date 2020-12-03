@@ -6,8 +6,19 @@ function Agregar(lol){
     var total = lol.parentNode.parentNode.childNodes[7].textContent;
     var codigoFila = "<tr>" +
     "<td>" + producto + "</td>" + "<td>" + cantidad + "</td>" + "<td>" + precio + "</td>"  +
-    "<td>" +total  +"</td>"+"</tr>";
-
+    "<td>" +total  +"</td>"+ '<td><button onclick="Eliminar(this)">Eliminar</button></td>' + "</tr>";
+    /*filita.removeChild(filita.childNodes[9]);*/
     var carrito = document.getElementById("tbl");
     carrito.innerHTML += codigoFila;
+}
+
+function actualizarPrecio(taf){
+    var cantidad = parseFloat(taf.value);
+    var precio = parseFloat(taf.parentNode.parentNode.childNodes[5].textContent);
+    taf.parentNode.parentNode.childNodes[7].textContent = cantidad*precio;
+}
+
+function Eliminar(elm){
+    var fila = elm.parentNode.parentNode;
+    fila.parentNode.removeChild(fila);
 }

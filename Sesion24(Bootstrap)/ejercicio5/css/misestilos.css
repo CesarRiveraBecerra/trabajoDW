@@ -1,0 +1,96 @@
+
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+#cover{
+    background: #222 url(../img/perritoPortadaEstaSI.jpg) center no-repeat;
+    background-size: 100%;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-texto{
+    width: 100%;
+}
+
+#botonBuscar{
+    background-color: #DBC347;
+    color: black;
+    border-color: black;
+}
+
+#BotonSuscribirme{
+    background-color: #2ABC37;
+    color: black;
+    border-color: transparent;
+}
+
+.TextoDeCarruselPK{
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.TextoDeCarrusel{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#UnPocoDeTextoSuelto{
+    margin-left: -97px;
+    font-size: 40px;
+}
+
+#UnPocoDeTextoMasSuelto{
+    margin-left: -97px;
+    font-size: 18px;
+    margin-right: -97px;
+}
+/*
+#Tarjetas{
+    display: inline-block;
+}
+*/
+
+#TituloDeFooter{
+    color: white;
+}
+
+#TextoDeFooter{
+    color: white;
+}
+
+#LINKDeFooter1{
+    color: white;
+
+}
+
+#LINKDeFooter2{
+    color: white;
+}
+
+#Copyright{
+    color: white;
+    background-color: black;
+}
+
+#listaDeFooter{
+    color: white;
+}
+
+/*
+.row{
+    margin-left: 100px;
+}*/
+
+.col-lg-3{
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+
