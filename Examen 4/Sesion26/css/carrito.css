@@ -1,0 +1,8 @@
+input[type="text"]{
+    width: 100%;
+}
+
+#ABCD *{
+    display: inline-block;
+    margin: 10px;
+}

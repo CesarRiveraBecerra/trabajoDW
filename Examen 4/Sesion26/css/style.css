@@ -1,0 +1,44 @@
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+}
+#cover{
+    background: #222 url('../img/perritoPortadaEstaSI.jpg') center no-repeat;
+    background-size: 100%;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#cover-texto{
+    width: 100%;
+}
+footer{
+    background-color: #222;
+    color: white;
+}
+#footer-copyright{
+    background-color: black;
+}
+
+#huesoDeAlerta{
+    float: left;
+    height: 150px;
+    transform: rotate(325deg);
+}
+
+.TextoDeCarruselPK{
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.TextoDeCarrusel{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Cartas{
+
+    margin-bottom: 10px;
+}
